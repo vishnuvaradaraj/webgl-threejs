@@ -1,0 +1,1 @@
+handlebar-rider  -i ../../assets/webroot/templates/ -o ../../assets/webroot/js/main/templates.js -w

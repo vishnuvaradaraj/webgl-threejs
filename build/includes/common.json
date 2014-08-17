@@ -1,0 +1,50 @@
+[
+	"libs/framework/jquery.js",
+	
+	"libs/gallery/jquery-easing-1.3.js",
+    "libs/gallery/jquery-transit-modified.js",
+    "libs/gallery/layerslider.transitions.js",
+    "libs/gallery/layerslider.kreaturamedia.jquery.js",
+    "libs/gallery/plusgallery.js",
+
+
+    "libs/framework/jquerymobile.js",
+    "libs/framework/handlebars.js",
+    
+    "libs/audio/beatdetektor.js",
+
+    "social/facebook.js",
+    "social/googleplus.js",
+
+    "libs/threed/three.js",
+
+    "libs/threed/detector.js",
+    "libs/threed/requestAnimationFrame.js",
+    "libs/utils/stats.js",
+    "libs/utils/signals.js",	  
+    "libs/utils/dat.gui.js",
+    "libs/utils/tween.js",
+    "libs/utils/sequencer.js",
+
+    "libs/video/VideoPlane.js",
+    "libs/video/VideoPlayer.js",
+    "libs/video/VideoShader.js",
+    "libs/video/VideoShots.js",
+
+    "libs/shaders/DotScreenShader.js",
+    "libs/shaders/SepiaShader.js",
+    "libs/shaders/CopyShader.js",
+    "libs/shaders/FilmShader.js",
+    "libs/shaders/VignetteShader.js",
+
+    "libs/postproc/EffectComposer.js",
+    "libs/postproc/RenderPass.js",
+    "libs/postproc/ShaderPass.js",
+    "libs/postproc/MaskPass.js",
+    "libs/postproc/BloomPass.js",
+    "libs/postproc/FilmPass.js",
+
+    "main/templates.js",
+    "main/DisplayEngine.js"
+    
+]

@@ -1,0 +1,213 @@
+<!doctype html>
+<html class="no-js ui-mobile-rendering" lang="en">
+<head>
+      <meta charset="utf-8">
+
+      <meta name="author" content="">
+      <meta name="keywords" 		content="Epsilon, mobile, framework, css3, html5, javascript, retina" />
+      <meta name="description" 	content="Epsilon based mobile retina webpp template!" />
+      
+      <!--Favicon shortcut link-->
+      <link type="image/x-icon"  rel="shortcut icon" href="images/splash/favicon.ico" />
+      <link type="image/x-icon"  rel="icon"		   href="images/splash/favicon.ico" />
+      
+      <!--Declare page as mobile friendly --> 
+      <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0"/>
+      
+      <!-- Declare page as iDevice WebApp friendly -->
+      <meta name="apple-mobile-web-app-capable" content="yes"/>
+      <!-- iDevice WebApp Splash Screen, Regular Icon, iPhone, iPad, iPod Retina Icons -->
+      <link rel="apple-touch-icon" sizes="114x114" href="images/splash/splash-icon.png"> 
+      <link rel="apple-touch-startup-image" href="images/splash/splash-screen.png" media="screen and (max-device-width: 320px)" /> 
+      <link rel="apple-touch-startup-image" href="images/splash/splash-screen@2x.png" media="(max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2)" /> 
+      <link rel="apple-touch-startup-image" href="images/splash/splash-screen@3x.png" sizes="640x1096">
+
+      <!-- Page Title -->
+      <title>Parabay Cinema</title>
+
+      <link rel="stylesheet" href="css/jquery.mobile-1.3.0.css" />
+      <!-- Stylesheet Load -->
+      <link href="css/style.css"				    rel="stylesheet" 	type="text/css">
+      <link href="css/icons.css"				    rel="stylesheet" 	type="text/css">
+      <link href="css/framework-style.css" 		rel="stylesheet" 	type="text/css">
+      <link href="css/custom.css" 		rel="stylesheet" 	type="text/css">
+
+		<link rel="stylesheet" href="css/layerslider.css" type="text/css">
+<link rel="stylesheet" href="css/plusgallery.css">
+
+      <style>
+
+		p.fontface {font: 30px/25px 'CACChampagneRegular', Arial, sans-serif;letter-spacing: 0; margin-top:0px; font-size:2em; text-align: center; color:black;}
+        .sidebar-logo { color: white; }
+        
+        .header{
+        	height:45px;
+        	margin-bottom:0px;
+        }
+        
+        
+        .update-boxlink {
+            font-family:'Lato', sans-serif;
+            color:#9a9a9a;
+        }
+        
+        h6.title{
+        	font-size:12px;
+        	line-height:18px;
+        	padding-bottom:1px;
+        	-webkit-margin-before: 1.63em;
+            -webkit-margin-after: 1.33em;
+        }
+        
+        .icon-bottom { 	margin-top:-2em;padding-bottom:2em;}
+        
+        .ui-body-b .ui-link {
+        	color: white;
+        	font-weight: 600;
+        }
+        .ui-body-b .ui-link:visited {
+            color: white;
+        }
+        .ui-body-b .ui-link:hover {
+        	color: white;
+        }
+        .ui-body-b .ui-link:active {
+        	color: white;
+        }
+        
+        
+        .ls-layer,
+		.ls-layer * {
+			font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', Helvetica, Arial, Serif;
+			font-weight: normal;
+		}
+		
+		.ls-layer p {
+			padding: 0px 10px;				
+			line-height: 40px;
+			box-shadow: 0px 4px 10px -5px black;
+			text-shadow: none;
+			font-size: 22px;
+			border-radius: 4px;
+			-moz-border-radius: 4px;
+			-webkit-border-radius: 4px;
+		}
+
+		.l1-s1 {
+			height: 80px;
+			color: black;
+			background: white;
+			opacity: .9;
+			width: 650px;
+			text-align: center;
+		}
+		
+		.l2-s1 {
+			height: 40px;
+			color: white;
+			background: black;
+			opacity: .65;
+			white-space: nowrap;
+		}
+		
+		.l3-s1 {
+			height: 40px;
+			color: black;
+			background: white;
+			opacity: .9;
+			white-space: nowrap;
+		}
+		
+        
+        .ls-bottom-nav-wrapper, .ls-nav-prev, .ls-nav-next {
+            display: none;
+            z-index: -1000;
+        }
+      </style>
+	
+      <script type="text/javascript">
+      function initGooglePlusTemp() {
+        console.log('Inited google+');
+        auth(/* immediate */ true);
+      }
+      </script>
+      
+
+    <script type="text/javascript" src="js/libs/framework/jquery.js"></script>
+    <script type="text/javascript" src="js/libs/framework/jquerymobile.js"></script>
+      	
+<script type="text/javascript" src="js/libs/threed/three.js"></script>
+
+<script type="text/javascript" src="js/libs/threed/detector.js"></script>
+<script type="text/javascript" src="js/libs/threed/requestAnimationFrame.js"></script>
+<script type="text/javascript" src="js/libs/utils/stats.js"></script>
+<script type="text/javascript" src="js/libs/utils/signals.js"></script>	  
+<script type="text/javascript" src="js/libs/utils/dat.gui.js"></script>
+<script type="text/javascript" src="js/libs/utils/tween.js"></script>
+<script src="js/libs/utils/sequencer.js"></script>
+
+<script src="js/libs/video/VideoPlane.js"></script>
+<script src="js/libs/video/VideoPlayer.js"></script>
+<script src="js/libs/video/VideoShader.js"></script>
+<script src="js/libs/video/VideoShots.js"></script>
+	  
+<script src="js/libs/shaders/DotScreenShader.js"></script>
+<script src="js/libs/shaders/RGBShiftShader.js"></script>
+<script src="js/libs/shaders/BleachBypassShader.js"></script>
+<script src="js/libs/shaders/ColorifyShader.js"></script>
+<script src="js/libs/shaders/SepiaShader.js"></script>
+<script src="js/libs/shaders/ConvolutionShader.js"></script>
+<script src="js/libs/shaders/CopyShader.js"></script>
+<script src="js/libs/shaders/FilmShader.js"></script>
+<script src="js/libs/shaders/FXAAShader.js"></script>
+<script src="js/libs/shaders/VignetteShader.js"></script>
+
+<script src="js/libs/postproc/EffectComposer.js"></script>
+<script src="js/libs/postproc/RenderPass.js"></script>
+<script src="js/libs/postproc/ShaderPass.js"></script>
+<script src="js/libs/postproc/MaskPass.js"></script>
+<script src="js/libs/postproc/BloomPass.js"></script>
+<script src="js/libs/postproc/FilmPass.js"></script>
+
+
+<script type="text/javascript" src="js/main/DisplayEngine.js"></script>
+
+</head>
+
+
+<body>
+<div data-role="page" id="foo" >
+
+
+
+	<div  id="one">	
+		<div id="graphics" style="height:440px;width:1024px;">
+		</div>
+
+	</div><!-- autoplay loop /content -->
+
+</div><!-- /page one -->
+
+
+<script type="text/javascript">
+
+var de;
+
+
+$(window).resize(function() {
+  
+});
+
+$(window).load(function () {
+  
+		
+		de = new PARABAY.DisplayEngine();
+		de.init();
+		de.animate();
+});
+
+</script>
+
+
+</body>
+</html>
